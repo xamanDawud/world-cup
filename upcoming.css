@@ -7,7 +7,6 @@ body {
 .container {
   width: 1100px;
   margin: 0px auto;
-  border: 1px solid black;
 }
 header {
   background-color: rgb(22, 22, 22);
@@ -207,26 +206,48 @@ footer {
   padding-top: 86px;
 }
 
+footer {
+  text-align: center;
+  background: rgb(22, 22, 22);
+  padding-top: 86px;
+}
 footer h1 {
   color: white;
   margin-bottom: 45px;
 }
-
 hr.footer-horizontal-line {
   width: 78%;
-  border-color: #ffffff26;
+  border-color: rgba(255, 255, 255, 0.15);
 }
-
 .footer-content {
   padding-top: 35px;
-  padding-bottom: 100px;
+  padding-bottom: 18px;
 }
-
 .footer-content a {
   text-decoration: none;
-  color: #ffffff6b;
+  color: rgba(255, 255, 255, 0.42);
   font-size: 16px;
   margin-right: 37px;
+}
+
+/*-----------------------
+ Styles For Socila Media Icon
+---------------------- */
+.socila-icon {
+  padding-bottom: 41px;
+  padding-top: 26px;
+}
+
+.socila-icon i {
+  width: 33px;
+  font-size: 25px;
+  color: #ffffff8a;
+  margin-right: 11px;
+}
+
+.socila-icon i:hover {
+  color: red;
+  cursor: pointer;
 }
 
 /* Start Responsive for Mobile Device */
